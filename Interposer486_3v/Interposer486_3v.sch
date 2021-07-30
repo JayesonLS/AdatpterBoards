@@ -3447,311 +3447,461 @@ Connection ~ 3150 10600
 Wire Wire Line
 	3150 10600 3150 10650
 $Comp
-L Mechanical:MountingHole HDT1
+L Mechanical:MountingHole_Pad HDT1
 U 1 1 610313FB
-P 12700 1450
-F 0 "HDT1" H 12800 1496 50  0000 L CNN
-F 1 "???" H 12800 1405 50  0000 L CNN
-F 2 "00Custom:MachinePinHole" H 12700 1450 50  0001 C CNN
-F 3 "~" H 12700 1450 50  0001 C CNN
-	1    12700 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole HDT2
-U 1 1 61064AF6
 P 12700 1650
-F 0 "HDT2" H 12800 1696 50  0000 L CNN
-F 1 "???" H 12800 1605 50  0000 L CNN
+F 0 "HDT1" V 12650 1800 50  0000 L CNN
+F 1 "???" V 12750 1800 50  0000 L CNN
 F 2 "00Custom:MachinePinHole" H 12700 1650 50  0001 C CNN
 F 3 "~" H 12700 1650 50  0001 C CNN
 	1    12700 1650
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
+Wire Wire Line
+	12600 1650 12500 1650
 $Comp
-L Mechanical:MountingHole HDT3
-U 1 1 61064E4C
+L Mechanical:MountingHole_Pad HDT2
+U 1 1 610C5BAC
 P 12700 1850
-F 0 "HDT3" H 12800 1896 50  0000 L CNN
-F 1 "???" H 12800 1805 50  0000 L CNN
+F 0 "HDT2" V 12650 2000 50  0000 L CNN
+F 1 "???" V 12750 2000 50  0000 L CNN
 F 2 "00Custom:MachinePinHole" H 12700 1850 50  0001 C CNN
 F 3 "~" H 12700 1850 50  0001 C CNN
 	1    12700 1850
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
+Wire Wire Line
+	12600 1850 12500 1850
 $Comp
-L Mechanical:MountingHole HDT4
-U 1 1 61065CDE
+L Mechanical:MountingHole_Pad HDT3
+U 1 1 610D5A2E
 P 12700 2050
-F 0 "HDT4" H 12800 2096 50  0000 L CNN
-F 1 "???" H 12800 2005 50  0000 L CNN
+F 0 "HDT3" V 12650 2200 50  0000 L CNN
+F 1 "???" V 12750 2200 50  0000 L CNN
 F 2 "00Custom:MachinePinHole" H 12700 2050 50  0001 C CNN
 F 3 "~" H 12700 2050 50  0001 C CNN
 	1    12700 2050
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
+Wire Wire Line
+	12600 2050 12500 2050
 $Comp
-L Mechanical:MountingHole HDT5
-U 1 1 61074F26
+L Mechanical:MountingHole_Pad HDT4
+U 1 1 610D5A43
 P 12700 2250
-F 0 "HDT5" H 12800 2296 50  0000 L CNN
-F 1 "???" H 12800 2205 50  0000 L CNN
+F 0 "HDT4" V 12650 2400 50  0000 L CNN
+F 1 "???" V 12750 2400 50  0000 L CNN
 F 2 "00Custom:MachinePinHole" H 12700 2250 50  0001 C CNN
 F 3 "~" H 12700 2250 50  0001 C CNN
 	1    12700 2250
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
+Wire Wire Line
+	12600 2250 12500 2250
 $Comp
-L Mechanical:MountingHole HDT6
-U 1 1 61075DD0
+L Mechanical:MountingHole_Pad HDT5
+U 1 1 610E405C
 P 12700 2450
-F 0 "HDT6" H 12800 2496 50  0000 L CNN
-F 1 "???" H 12800 2405 50  0000 L CNN
+F 0 "HDT5" V 12650 2600 50  0000 L CNN
+F 1 "???" V 12750 2600 50  0000 L CNN
 F 2 "00Custom:MachinePinHole" H 12700 2450 50  0001 C CNN
 F 3 "~" H 12700 2450 50  0001 C CNN
 	1    12700 2450
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
+Wire Wire Line
+	12600 2450 12500 2450
 $Comp
-L Mechanical:MountingHole HDT7
-U 1 1 61075DDA
+L Mechanical:MountingHole_Pad HDT6
+U 1 1 610E4F11
 P 12700 2650
-F 0 "HDT7" H 12800 2696 50  0000 L CNN
-F 1 "???" H 12800 2605 50  0000 L CNN
+F 0 "HDT6" V 12650 2800 50  0000 L CNN
+F 1 "???" V 12750 2800 50  0000 L CNN
 F 2 "00Custom:MachinePinHole" H 12700 2650 50  0001 C CNN
 F 3 "~" H 12700 2650 50  0001 C CNN
 	1    12700 2650
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
+Wire Wire Line
+	12600 2650 12500 2650
 $Comp
-L Mechanical:MountingHole HDT8
-U 1 1 61075DE4
+L Mechanical:MountingHole_Pad HDT7
+U 1 1 610E4F1C
 P 12700 2850
-F 0 "HDT8" H 12800 2896 50  0000 L CNN
-F 1 "???" H 12800 2805 50  0000 L CNN
+F 0 "HDT7" V 12650 3000 50  0000 L CNN
+F 1 "???" V 12750 3000 50  0000 L CNN
 F 2 "00Custom:MachinePinHole" H 12700 2850 50  0001 C CNN
 F 3 "~" H 12700 2850 50  0001 C CNN
 	1    12700 2850
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
+Wire Wire Line
+	12600 2850 12500 2850
 $Comp
-L Mechanical:MountingHole HDT9
-U 1 1 61085124
+L Mechanical:MountingHole_Pad HDT8
+U 1 1 610E4F27
 P 12700 3050
-F 0 "HDT9" H 12800 3096 50  0000 L CNN
-F 1 "???" H 12800 3005 50  0000 L CNN
+F 0 "HDT8" V 12650 3200 50  0000 L CNN
+F 1 "???" V 12750 3200 50  0000 L CNN
 F 2 "00Custom:MachinePinHole" H 12700 3050 50  0001 C CNN
 F 3 "~" H 12700 3050 50  0001 C CNN
 	1    12700 3050
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
+Wire Wire Line
+	12600 3050 12500 3050
 $Comp
-L Mechanical:MountingHole HDT10
-U 1 1 61085FFE
+L Mechanical:MountingHole_Pad HDT9
+U 1 1 610F5398
 P 12700 3250
-F 0 "HDT10" H 12800 3296 50  0000 L CNN
-F 1 "???" H 12800 3205 50  0000 L CNN
+F 0 "HDT9" V 12650 3400 50  0000 L CNN
+F 1 "???" V 12750 3400 50  0000 L CNN
 F 2 "00Custom:MachinePinHole" H 12700 3250 50  0001 C CNN
 F 3 "~" H 12700 3250 50  0001 C CNN
 	1    12700 3250
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
+Wire Wire Line
+	12600 3250 12500 3250
 $Comp
-L Mechanical:MountingHole HDT11
-U 1 1 61086008
+L Mechanical:MountingHole_Pad HDT10
+U 1 1 610F6285
 P 12700 3450
-F 0 "HDT11" H 12800 3496 50  0000 L CNN
-F 1 "???" H 12800 3405 50  0000 L CNN
+F 0 "HDT10" V 12650 3600 50  0000 L CNN
+F 1 "???" V 12750 3600 50  0000 L CNN
 F 2 "00Custom:MachinePinHole" H 12700 3450 50  0001 C CNN
 F 3 "~" H 12700 3450 50  0001 C CNN
 	1    12700 3450
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
+Wire Wire Line
+	12600 3450 12500 3450
 $Comp
-L Mechanical:MountingHole HDT12
-U 1 1 61086012
+L Mechanical:MountingHole_Pad HDT11
+U 1 1 610F6290
 P 12700 3650
-F 0 "HDT12" H 12800 3696 50  0000 L CNN
-F 1 "???" H 12800 3605 50  0000 L CNN
+F 0 "HDT11" V 12650 3800 50  0000 L CNN
+F 1 "???" V 12750 3800 50  0000 L CNN
 F 2 "00Custom:MachinePinHole" H 12700 3650 50  0001 C CNN
 F 3 "~" H 12700 3650 50  0001 C CNN
 	1    12700 3650
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
+Wire Wire Line
+	12600 3650 12500 3650
 $Comp
-L Mechanical:MountingHole HDT13
-U 1 1 6108601C
+L Mechanical:MountingHole_Pad HDT12
+U 1 1 610F629B
 P 12700 3850
-F 0 "HDT13" H 12800 3896 50  0000 L CNN
-F 1 "???" H 12800 3805 50  0000 L CNN
+F 0 "HDT12" V 12650 4000 50  0000 L CNN
+F 1 "???" V 12750 4000 50  0000 L CNN
 F 2 "00Custom:MachinePinHole" H 12700 3850 50  0001 C CNN
 F 3 "~" H 12700 3850 50  0001 C CNN
 	1    12700 3850
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
+Wire Wire Line
+	12600 3850 12500 3850
 $Comp
-L Mechanical:MountingHole HDT14
-U 1 1 61086026
+L Mechanical:MountingHole_Pad HDT13
+U 1 1 610F62A6
 P 12700 4050
-F 0 "HDT14" H 12800 4096 50  0000 L CNN
-F 1 "???" H 12800 4005 50  0000 L CNN
+F 0 "HDT13" V 12650 4200 50  0000 L CNN
+F 1 "???" V 12750 4200 50  0000 L CNN
 F 2 "00Custom:MachinePinHole" H 12700 4050 50  0001 C CNN
 F 3 "~" H 12700 4050 50  0001 C CNN
 	1    12700 4050
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
+Wire Wire Line
+	12600 4050 12500 4050
 $Comp
-L Mechanical:MountingHole HDT15
-U 1 1 61086030
+L Mechanical:MountingHole_Pad HDT14
+U 1 1 610F62B1
 P 12700 4250
-F 0 "HDT15" H 12800 4296 50  0000 L CNN
-F 1 "???" H 12800 4205 50  0000 L CNN
+F 0 "HDT14" V 12650 4400 50  0000 L CNN
+F 1 "???" V 12750 4400 50  0000 L CNN
 F 2 "00Custom:MachinePinHole" H 12700 4250 50  0001 C CNN
 F 3 "~" H 12700 4250 50  0001 C CNN
 	1    12700 4250
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
+Wire Wire Line
+	12600 4250 12500 4250
 $Comp
-L Mechanical:MountingHole HDT16
-U 1 1 6108603A
+L Mechanical:MountingHole_Pad HDT15
+U 1 1 610F62BC
 P 12700 4450
-F 0 "HDT16" H 12800 4496 50  0000 L CNN
-F 1 "???" H 12800 4405 50  0000 L CNN
+F 0 "HDT15" V 12650 4600 50  0000 L CNN
+F 1 "???" V 12750 4600 50  0000 L CNN
 F 2 "00Custom:MachinePinHole" H 12700 4450 50  0001 C CNN
 F 3 "~" H 12700 4450 50  0001 C CNN
 	1    12700 4450
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
+Wire Wire Line
+	12600 4450 12500 4450
 $Comp
-L Mechanical:MountingHole HDT17
-U 1 1 610961BA
+L Mechanical:MountingHole_Pad HDT16
+U 1 1 610F62C7
 P 12700 4650
-F 0 "HDT17" H 12800 4696 50  0000 L CNN
-F 1 "???" H 12800 4605 50  0000 L CNN
+F 0 "HDT16" V 12650 4800 50  0000 L CNN
+F 1 "???" V 12750 4800 50  0000 L CNN
 F 2 "00Custom:MachinePinHole" H 12700 4650 50  0001 C CNN
 F 3 "~" H 12700 4650 50  0001 C CNN
 	1    12700 4650
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
+Wire Wire Line
+	12600 4650 12500 4650
 $Comp
-L Mechanical:MountingHole HDT18
-U 1 1 610970F4
+L Mechanical:MountingHole_Pad HDT17
+U 1 1 6110777E
 P 12700 4850
-F 0 "HDT18" H 12800 4896 50  0000 L CNN
-F 1 "???" H 12800 4805 50  0000 L CNN
+F 0 "HDT17" V 12650 5000 50  0000 L CNN
+F 1 "???" V 12750 5000 50  0000 L CNN
 F 2 "00Custom:MachinePinHole" H 12700 4850 50  0001 C CNN
 F 3 "~" H 12700 4850 50  0001 C CNN
 	1    12700 4850
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
+Wire Wire Line
+	12600 4850 12500 4850
 $Comp
-L Mechanical:MountingHole HDT19
-U 1 1 610970FE
+L Mechanical:MountingHole_Pad HDT18
+U 1 1 611086DB
 P 12700 5050
-F 0 "HDT19" H 12800 5096 50  0000 L CNN
-F 1 "???" H 12800 5005 50  0000 L CNN
+F 0 "HDT18" V 12650 5200 50  0000 L CNN
+F 1 "???" V 12750 5200 50  0000 L CNN
 F 2 "00Custom:MachinePinHole" H 12700 5050 50  0001 C CNN
 F 3 "~" H 12700 5050 50  0001 C CNN
 	1    12700 5050
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
+Wire Wire Line
+	12600 5050 12500 5050
 $Comp
-L Mechanical:MountingHole HDT20
-U 1 1 61097108
+L Mechanical:MountingHole_Pad HDT19
+U 1 1 611086E6
 P 12700 5250
-F 0 "HDT20" H 12800 5296 50  0000 L CNN
-F 1 "???" H 12800 5205 50  0000 L CNN
+F 0 "HDT19" V 12650 5400 50  0000 L CNN
+F 1 "???" V 12750 5400 50  0000 L CNN
 F 2 "00Custom:MachinePinHole" H 12700 5250 50  0001 C CNN
 F 3 "~" H 12700 5250 50  0001 C CNN
 	1    12700 5250
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
+Wire Wire Line
+	12600 5250 12500 5250
 $Comp
-L Mechanical:MountingHole HDT21
-U 1 1 61097112
+L Mechanical:MountingHole_Pad HDT20
+U 1 1 611086F1
 P 12700 5450
-F 0 "HDT21" H 12800 5496 50  0000 L CNN
-F 1 "???" H 12800 5405 50  0000 L CNN
+F 0 "HDT20" V 12650 5600 50  0000 L CNN
+F 1 "???" V 12750 5600 50  0000 L CNN
 F 2 "00Custom:MachinePinHole" H 12700 5450 50  0001 C CNN
 F 3 "~" H 12700 5450 50  0001 C CNN
 	1    12700 5450
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
+Wire Wire Line
+	12600 5450 12500 5450
 $Comp
-L Mechanical:MountingHole HDT22
-U 1 1 6109711C
+L Mechanical:MountingHole_Pad HDT21
+U 1 1 611086FC
 P 12700 5650
-F 0 "HDT22" H 12800 5696 50  0000 L CNN
-F 1 "???" H 12800 5605 50  0000 L CNN
+F 0 "HDT21" V 12650 5800 50  0000 L CNN
+F 1 "???" V 12750 5800 50  0000 L CNN
 F 2 "00Custom:MachinePinHole" H 12700 5650 50  0001 C CNN
 F 3 "~" H 12700 5650 50  0001 C CNN
 	1    12700 5650
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
+Wire Wire Line
+	12600 5650 12500 5650
 $Comp
-L Mechanical:MountingHole HDT23
-U 1 1 61097126
+L Mechanical:MountingHole_Pad HDT22
+U 1 1 61108707
 P 12700 5850
-F 0 "HDT23" H 12800 5896 50  0000 L CNN
-F 1 "???" H 12800 5805 50  0000 L CNN
+F 0 "HDT22" V 12650 6000 50  0000 L CNN
+F 1 "???" V 12750 6000 50  0000 L CNN
 F 2 "00Custom:MachinePinHole" H 12700 5850 50  0001 C CNN
 F 3 "~" H 12700 5850 50  0001 C CNN
 	1    12700 5850
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
+Wire Wire Line
+	12600 5850 12500 5850
 $Comp
-L Mechanical:MountingHole HDT24
-U 1 1 61097130
+L Mechanical:MountingHole_Pad HDT23
+U 1 1 61108712
 P 12700 6050
-F 0 "HDT24" H 12800 6096 50  0000 L CNN
-F 1 "???" H 12800 6005 50  0000 L CNN
+F 0 "HDT23" V 12650 6200 50  0000 L CNN
+F 1 "???" V 12750 6200 50  0000 L CNN
 F 2 "00Custom:MachinePinHole" H 12700 6050 50  0001 C CNN
 F 3 "~" H 12700 6050 50  0001 C CNN
 	1    12700 6050
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
+Wire Wire Line
+	12600 6050 12500 6050
 $Comp
-L Mechanical:MountingHole HDT25
-U 1 1 610A5FE6
+L Mechanical:MountingHole_Pad HDT24
+U 1 1 6110871D
 P 12700 6250
-F 0 "HDT25" H 12800 6296 50  0000 L CNN
-F 1 "???" H 12800 6205 50  0000 L CNN
+F 0 "HDT24" V 12650 6400 50  0000 L CNN
+F 1 "???" V 12750 6400 50  0000 L CNN
 F 2 "00Custom:MachinePinHole" H 12700 6250 50  0001 C CNN
 F 3 "~" H 12700 6250 50  0001 C CNN
 	1    12700 6250
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
+Wire Wire Line
+	12600 6250 12500 6250
 $Comp
-L Mechanical:MountingHole HDT26
-U 1 1 610A6F80
+L Mechanical:MountingHole_Pad HDT25
+U 1 1 61108728
 P 12700 6450
-F 0 "HDT26" H 12800 6496 50  0000 L CNN
-F 1 "???" H 12800 6405 50  0000 L CNN
+F 0 "HDT25" V 12650 6600 50  0000 L CNN
+F 1 "???" V 12750 6600 50  0000 L CNN
 F 2 "00Custom:MachinePinHole" H 12700 6450 50  0001 C CNN
 F 3 "~" H 12700 6450 50  0001 C CNN
 	1    12700 6450
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
+Wire Wire Line
+	12600 6450 12500 6450
 $Comp
-L Mechanical:MountingHole HDT27
-U 1 1 6110B776
+L Mechanical:MountingHole_Pad HDT26
+U 1 1 61108733
 P 12700 6650
-F 0 "HDT27" H 12800 6696 50  0000 L CNN
-F 1 "???" H 12800 6605 50  0000 L CNN
+F 0 "HDT26" V 12650 6800 50  0000 L CNN
+F 1 "???" V 12750 6800 50  0000 L CNN
 F 2 "00Custom:MachinePinHole" H 12700 6650 50  0001 C CNN
 F 3 "~" H 12700 6650 50  0001 C CNN
 	1    12700 6650
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
+Wire Wire Line
+	12600 6650 12500 6650
 $Comp
-L Mechanical:MountingHole HDT28
-U 1 1 6110C728
+L Mechanical:MountingHole_Pad HDT27
+U 1 1 6110873E
 P 12700 6850
-F 0 "HDT28" H 12800 6896 50  0000 L CNN
-F 1 "???" H 12800 6805 50  0000 L CNN
+F 0 "HDT27" V 12650 7000 50  0000 L CNN
+F 1 "???" V 12750 7000 50  0000 L CNN
 F 2 "00Custom:MachinePinHole" H 12700 6850 50  0001 C CNN
 F 3 "~" H 12700 6850 50  0001 C CNN
 	1    12700 6850
-	1    0    0    -1  
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12600 6850 12500 6850
+$Comp
+L Mechanical:MountingHole_Pad HDT28
+U 1 1 61108749
+P 12700 7050
+F 0 "HDT28" V 12650 7200 50  0000 L CNN
+F 1 "???" V 12750 7200 50  0000 L CNN
+F 2 "00Custom:MachinePinHole" H 12700 7050 50  0001 C CNN
+F 3 "~" H 12700 7050 50  0001 C CNN
+	1    12700 7050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12600 7050 12500 7050
+Wire Wire Line
+	12500 1650 12500 1850
+Connection ~ 12500 1850
+Wire Wire Line
+	12500 1850 12500 2050
+Connection ~ 12500 2050
+Wire Wire Line
+	12500 2050 12500 2250
+Connection ~ 12500 2250
+Wire Wire Line
+	12500 2250 12500 2450
+Connection ~ 12500 2450
+Wire Wire Line
+	12500 2450 12500 2650
+Connection ~ 12500 2650
+Wire Wire Line
+	12500 2650 12500 2850
+Connection ~ 12500 2850
+Wire Wire Line
+	12500 2850 12500 3050
+Connection ~ 12500 3050
+Wire Wire Line
+	12500 3050 12500 3250
+Connection ~ 12500 3250
+Wire Wire Line
+	12500 3250 12500 3450
+Connection ~ 12500 3450
+Wire Wire Line
+	12500 3450 12500 3650
+Connection ~ 12500 3650
+Wire Wire Line
+	12500 3650 12500 3850
+Connection ~ 12500 3850
+Wire Wire Line
+	12500 3850 12500 4050
+Connection ~ 12500 4050
+Wire Wire Line
+	12500 4050 12500 4250
+Connection ~ 12500 4250
+Wire Wire Line
+	12500 4250 12500 4450
+Connection ~ 12500 4450
+Wire Wire Line
+	12500 4450 12500 4650
+Connection ~ 12500 4650
+Wire Wire Line
+	12500 4650 12500 4850
+Connection ~ 12500 4850
+Wire Wire Line
+	12500 4850 12500 5050
+Connection ~ 12500 5050
+Wire Wire Line
+	12500 5050 12500 5250
+Connection ~ 12500 5250
+Wire Wire Line
+	12500 5250 12500 5450
+Connection ~ 12500 5450
+Wire Wire Line
+	12500 5450 12500 5650
+Connection ~ 12500 5650
+Wire Wire Line
+	12500 5650 12500 5850
+Connection ~ 12500 5850
+Wire Wire Line
+	12500 5850 12500 6050
+Connection ~ 12500 6050
+Wire Wire Line
+	12500 6050 12500 6250
+Connection ~ 12500 6250
+Wire Wire Line
+	12500 6250 12500 6450
+Connection ~ 12500 6450
+Wire Wire Line
+	12500 6450 12500 6650
+Connection ~ 12500 6650
+Wire Wire Line
+	12500 6650 12500 6850
+Connection ~ 12500 6850
+Wire Wire Line
+	12500 6850 12500 7050
+Connection ~ 12500 7050
+Wire Wire Line
+	12500 7050 12500 7150
+$Comp
+L power:VSS #PWR044
+U 1 1 6113FFB5
+P 12500 7150
+F 0 "#PWR044" H 12500 7000 50  0001 C CNN
+F 1 "VSS" H 12515 7323 50  0000 C CNN
+F 2 "" H 12500 7150 50  0001 C CNN
+F 3 "" H 12500 7150 50  0001 C CNN
+	1    12500 7150
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
