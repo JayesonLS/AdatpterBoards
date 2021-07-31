@@ -11,7 +11,7 @@ Battery BR-2/3A to CR2032
 **STATUS:** Untested.
 
 Allows use of a CR2032 in place of a Panasonic BR-2/3A, as used
-in some PS/2's.
+in some PS/2's for example.
 
 Interposer 486 3V
 -----------------
