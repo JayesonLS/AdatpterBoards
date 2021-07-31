@@ -6,6 +6,8 @@ for more details.
 Battery BR-2/3A to CR2032
 -------------------------
 
+<img src="Images/BR-2slash3A-SurfaceMount.png" width="600">
+
 **STATUS:** Untested.
 
 Allows use of a CR2032 in place of a Panasonic BR-2/3A, as used
@@ -14,7 +16,9 @@ in some PS/2's.
 Interposer 486 3V
 -----------------
 
-**STATUS:** Untested. Assembling will be compilicated - instructions to follow. 
+<img src="Images/Interposer486_3v.png">
+
+**STATUS:** Untested. Assembling will be complicated - instructions to follow. 
 
 Allows a 3V 486 CPU to be used on mainboards with only 5V CPU support.
 Jumpers allow selection of:
